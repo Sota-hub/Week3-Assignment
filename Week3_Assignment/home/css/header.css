@@ -88,6 +88,10 @@ header {
   margin: 0 3px;
 }
 
+#cart {
+  cursor: pointer;
+}
+
 /* Shop button */
 nav {
   position: absolute;
@@ -193,6 +197,7 @@ nav {
 #search_bar_text {
   border: 0px;
   border-bottom: 1px solid #000;
+  font-size: 5rem;
 }
 
 #search_bar_btn {
@@ -240,6 +245,7 @@ nav {
 #cart_title span {
   font-size: 32px;
   transform: translateY(-10px);
+  cursor: pointer;
 }
 
 #cart_items {
