@@ -7,7 +7,8 @@ body {
   display: none;
 }
 
-.stack_grid_frame {
+.stack_grid_frame,
+footer {
   display: none;
 }
 
@@ -76,18 +77,39 @@ body {
   .mob_titles{
     display: none;
   }
-  
+
+  footer {
+    display: contents;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer svg {
+    fill: #fff;
+  }
+
+  footer .right {
+    margin: 0 60px 0 0 ;
+  }
+
+  .email input {
+    width: 300px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+  }
 
   /* thumbnail line */
   #line {
     position: absolute;
     top: 0;
-    border-top: 10px solid #ffff00;
+    border-top: 10px solid #ff2fee;
     font-size: 1px;
     animation-name: line_length;
     animation-duration: 4.0s;
     animation-iteration-count: infinite;
     transition: ease-in-out;
+    z-index: 100;
   }
 
   /* thumbnail images */

@@ -13,7 +13,7 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  background: rgba(60, 60, 60, .4);
+  background: #3c3c3c66;
   padding-bottom: 40px;
 }
 
@@ -159,6 +159,7 @@ nav {
 
 #nav_images h6 {
   margin: 10px 0;
+  font-size: 10px;
   font-weight: 300;
 }
 
@@ -198,12 +199,16 @@ nav {
 }
 
 #search_bar_text {
+  width: 100px;
+  height: 50px;
   border: 0px;
   border-bottom: 1px solid #000;
   font-size: 5rem;
 }
 
 #search_bar_btn {
+  width: 100px;
+  height: 50px;
   border: 0px;
   background: #000;
   color: #fff;
@@ -233,7 +238,7 @@ nav {
 #cart_sum {
   display: flex;
   justify-content: space-between;
-  margin-right: 120px;
+  margin-right: 90px;
   color: #000;
 }
 
@@ -243,6 +248,7 @@ nav {
 
 #cart_title h6 {
   margin: 3px;
+  font-size: 10px;
 }
 
 #cart_title span {
